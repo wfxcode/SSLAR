@@ -17,7 +17,7 @@ The version under development is available on GitHub and can be installed as fol
 ```r
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
-devtools::install_github("plhhnu/SSLAR")
+devtools::install_github("wfxcode/SSLAR")
 ```
 This package relies on the ssNMF and torch libraries, requiring a functional Python interpreter with these libraries installed. The installPython function offers a convenient method to set up a conda environment named SSLAR-env, which includes all necessary dependencies. While we recommend using this method to install Python libraries, you also have the option to customize the installation process.
 ```r
