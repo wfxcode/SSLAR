@@ -1,0 +1,30 @@
+Package: SSLAR
+Title: SSLAR (Spatial Single-cell Labeling and Annotation using Reference)
+Version: 0.9
+Authors@R: 
+    person("Feixiang", "Wang", , "wfxcode@163.com", role = c("aut", "cre","com"))
+Description: The SSLAR performs spatial single-cell labeling and annotation using a reference dataset. It integrates single-cell RNA sequencing (scRNA-seq) data with spatial transcriptomics (ST) data to infer cell type proportions in each spatial location (spot).
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 4.0.0)
+biocViews:
+Imports: 
+    dplyr,
+    DropletUtils,
+    FNN (>= 1.1.4.1),
+    lars (>= 1.3),
+    NMF (>= 0.28),
+    nnls (>= 1.5),
+    philentropy (>= 0.8.0),
+    purrr,
+    reticulate,
+    Seurat (>= 5.1.0),
+    stats (>= 4.4.1)
+LazyData: true
+Suggests: 
+    glmGamPoi,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
