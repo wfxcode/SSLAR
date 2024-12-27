@@ -9,7 +9,7 @@ All the data used in this article is shown below:
 
 ![Fig2.jpg](dataset.jpg)
 
-We provide a dataset for PBMC(smart-seq) as an example.
+We provide a dataset for mouse visual cortex as an example.
 
 ## Intsall
 The version under development is available on GitHub and can be installed as follows:
