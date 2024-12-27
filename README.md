@@ -1,4 +1,4 @@
-# SSLARregression
+# SSLAR
 
 SSLAR conducted cell type annotation by leveraging single cell RNA sequencing and spatial transcriptomics data via machine learning.
 ![Fig1.jpg](pipeline.jpg)
