@@ -11,7 +11,7 @@ All the data used in this article is shown below:
 
 We provide a dataset for mouse visual cortex as an example.
 
-## Intsall
+## Install
 The version under development is available on GitHub and can be installed as follows:
 
 ```r
